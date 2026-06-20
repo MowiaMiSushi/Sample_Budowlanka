@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# build
+dist/
+dist-ssr/
+
+# env (klucze supabase — NIE commituj)
+.env
+.env.local
+.env.*.local
+
+# supabase — schemat bazy trzymasz prywatnie w dashboardzie
+supabase/
+
+# logs
+*.log
+npm-debug.log*
+
+# editor / os
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# vite
+*.local
+
+# cache
+.cache/
+.eslintcache
